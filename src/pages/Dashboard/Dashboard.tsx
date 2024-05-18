@@ -50,7 +50,7 @@ function Dashboard() {
         </button>
       </nav>
       <div className="min-h-screen flex items-center justify-center bg-gray-50 pt-16">
-        <div className="bg-white p-6 w-full md:w-1/2 lg:w-1/3">
+        <div className="bg-white p-6 w-full md:w-1/2 lg:w-1/3 shadow-2xl rounded-xl">
           <div className='items-center justify-center flex'>
           <img className={"w-20 h-20 rounded-md mb-7"} src={imageUrl} alt="Profile" />
           </div>
