@@ -46,7 +46,7 @@ function Dashboard() {
       <nav className="bg-white w-full fixed top-0 flex justify-between p-4">
         <div></div>
         <button onClick={handleLogout} className="text-white bg-primary h-customButtonHeight w-customButtonWidth pt-1 pb-1 rounded-full">
-          Logout
+          Sair
         </button>
       </nav>
       <div className="min-h-screen flex items-center justify-center bg-gray-50 pt-16">
