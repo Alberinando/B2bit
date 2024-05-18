@@ -1,6 +1,7 @@
 import { Formik, Field, Form } from 'formik';
 import axios from 'axios';
 import { FormValues } from './Interface/Login';
+import logo from '../../assets/B2Bit.png';
 
 function Login() {
   const handleSubmit = async (values: FormValues) => {
@@ -21,13 +22,9 @@ function Login() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="w-custom h-custom bg-white p-6 rounded-xl shadow-xl">
-        <h2 className="mt-6 text-center text-8xl font-bold">
-          <span className="text-primary">b</span>
-          <span className="text-primary">2</span>
-          <span className="text-primary">b</span>
-          <span className="text-secondary">i</span>
-          <span className="text-secondary">t</span>
-        </h2>
+        <div className='items-center justify-center flex'>
+          <img src={logo} alt='Logo'/>
+        </div>
         <Formik
           initialValues={{ email: '', password: '' }}
           onSubmit={handleSubmit}
